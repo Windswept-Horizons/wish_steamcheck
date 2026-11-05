@@ -134,6 +134,10 @@ Logins still load, but the startup banner, version checker and **database auto-u
 
 Once things have settled (a week or two), remove `ensure wish_steamcheck`. Nothing depends on it.
 
+## Player's Guide
+
+Feel free to share [this guide](https://www.wish-rp.com/get-started/redm-connection-guide/redm-steam-login-guide) I wrote for my community. It has step by step instructions, including a small troubleshooting section.
+
 ## License
 
 MIT (see `LICENSE`). Use it, share it, improve it. 🐺
