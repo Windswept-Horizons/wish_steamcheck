@@ -136,7 +136,7 @@ Once things have settled (a week or two), remove `ensure wish_steamcheck`. Nothi
 
 ## Player's Guide
 
-Feel free to share [this guide](https://www.wish-rp.com/get-started/redm-connection-guide/redm-steam-login-guide) I wrote for my community. It has step by step instructions, including a small troubleshooting section.
+Feel free to share this [RedM Steam Login Guide](https://www.wish-rp.com/get-started/redm-connection-guide/redm-steam-login-guide) I wrote for my community. It has step by step instructions, including a small troubleshooting section.
 
 ## License
 
