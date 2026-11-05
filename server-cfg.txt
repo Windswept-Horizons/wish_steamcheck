@@ -1,0 +1,19 @@
+###################### STEAM AUTH  (Cfx update - Nov 4, 2026) ###################
+### Place this block near the top of server.cfg, right under sv_licenseKey.
+### 1) Update FXServer to artifact 38004 or newer FIRST.
+### 2) steam_webApiKey is deprecated (Cfx now verifies Steam via the player's linked
+###    Cfx account). Some resources still check that it is non-empty, for example
+###    VORP Core before Nov 4, 2026 (server/init.lua stops early if it is blank).
+###    Run the scan in README.md first. If anything still checks it, keep this line
+###    until those resources are updated. Any non-empty value works.
+set steam_webApiKey "YOUR_EXISTING_KEY_OR_ANY_NON_EMPTY_VALUE"
+
+### 3) Require Steam. Players without a linked Steam account get the RedM link prompt
+###    instead of joining with no steam: ID (which gives them a blank account on
+###    Steam-keyed frameworks like VORP).
+set sv_enforceSteamAuth true
+
+###################### resources.cfg ###################
+### Start after oxmysql (only needed if Config.CheckDatabase = true):
+# ensure oxmysql
+# ensure wish_steamcheck
